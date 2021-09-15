@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright (c) SEQTA Software (a division of Saron Education Ltd.) 2014.
+  -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>SEQTA Learn</title>
+		<link rel="stylesheet" type="text/css" href="/483a6e39df73/lib.css"/>
+		<link rel="stylesheet" type="text/css" href="/483a6e39df73/app.css"/>
+		<link rel="stylesheet" type="text/css" href="/483a6e39df73/coneqt.css"/>
+		<link rel="stylesheet" type="text/css" href="/483a6e39df73/seqtamodules-coneqt.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700"/>
+		<link rel="shortcut icon" href="/images/favicon-student.ico"/>
+		<link rel="apple-touch-icon-precomposed" href="/images/favicon-student57.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="64x64" href="/images/favicon-student64.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicon-student72.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon-student114.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="128x128" href="/images/favicon-student128.png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon-student144.png"/>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="msapplication-tap-highlight" content="no">
+
+		<script type="text/javascript">
+			var Configuration = {
+				baseURL: '/seqta/student/',
+				fileURL: '/seqta/student/load/file?type={type}&file={uuid}',
+
+				iTunesLink: 'https://itunes.apple.com/au/app/seqta-learn/id1143069793',
+				googlePlayLink: 'https://play.google.com/store/apps/details?id=com.seqta.android.learn'
+			};
+		</script>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+		<script type="text/javascript" src="/483a6e39df73/lib.js"></script>
+		<script type="text/javascript" src="/483a6e39df73/app.js"></script>
+		<script type="text/javascript" src="/483a6e39df73/coneqt.js"></script>
+		<script type="text/javascript" src="/483a6e39df73/ace/ace.js"></script>
+		<script type="text/javascript" src="/483a6e39df73/vendor.bundle.js"></script>
+		<script type="text/javascript" src="/483a6e39df73/seqtamodules-coneqt.js"></script>
+		<script type="text/javascript" src="/483a6e39df73/ckeditor/ckeditor.js"></script>
+	</head>
+	<body data-type="student" class="legacy-root">
+		<script type="text/javascript">
+			(function() {
+				if (window !== window.top && window.self !== window.top) {
+					document.body.innerHTML = '<div class="framebuster"><h1>Embedding not supported</h1><p>It looks as though you&rsquo;re embedding SEQTA inside another application. Unfortunately this is not supported as it can cause issues with the software.</p></div>';
+					window.removeEvents('domready');
+					window.seqta = null;
+				}
+			})();
+		</script>
+
+		<script type="text/javascript">
+			(function () {
+				window.SEQTA_ASSET_HASH = '483a6e39df73';
+				window.BUILD_TARGET = 'production';
+
+				if (window.BUILD_TARGET === 'dev') {
+					dbug && dbug.enable();
+				}
+			})();
+		</script>
+	</body>
+</html>
